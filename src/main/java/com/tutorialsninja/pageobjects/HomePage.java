@@ -1,4 +1,4 @@
-package com.tutorialsninja.pagefactory;
+package com.tutorialsninja.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -11,7 +11,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.tutorialsninja.base.Base;
-import com.tutorialsninja.pagefactory.HomePage;
+import com.tutorialsninja.pageobjects.HomePage;
 import com.tutorialsninja.util.DataUtil;
 import com.tutorialsninja.util.MyXLSReader;
 
