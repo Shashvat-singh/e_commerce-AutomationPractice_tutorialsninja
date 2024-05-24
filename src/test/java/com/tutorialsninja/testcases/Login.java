@@ -31,7 +31,7 @@ public class Login extends Base{
 	
 	@Test (dataProvider = "dataSupplier")
 	public void validInvalidLoginTest(HashMap<String, String>hMap) {
-		if (DataUtil.isRunnable(excelReader, "LoginTest", "Testcases") || hMap.get("Runmode").equals("N")) {
+		if (hMap.get("Runmode").equals("N")) {
 			throw new SkipException("Testcase is not runnable...!");
 		}
 		
