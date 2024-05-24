@@ -24,12 +24,14 @@ public class Login extends Base{
 	public void tearDown() {
 		if(driver != null) {
 			driver.quit();
+		}else if (driver == null) {
+			System.out.println("Driver is null...!!!");
 		}
 	}
 	
 	@Test (dataProvider = "dataSupplier")
 	public void validInvalidLoginTest(HashMap<String, String>hMap) {
-		if (hMap.get("Runmode").equals("N")) {
+		if (DataUtil.isRunnable(excelReader, "LoginTest", "Testcases") || hMap.get("Runmode").equals("N")) {
 			throw new SkipException("Testcase is not runnable...!");
 		}
 		
