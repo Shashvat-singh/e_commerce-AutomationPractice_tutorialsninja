@@ -6,7 +6,7 @@
       <class name="com.tutorialsninja.testcases.Login">
         <methods>
           <include name="tearDown"/>
-          <include name="validInvalidLoginTest" invocation-numbers="0 1"/>
+          <include name="validInvalidLoginTest" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.tutorialsninja.testcases.Login -->
     </classes>

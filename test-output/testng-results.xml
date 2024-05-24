@@ -2,27 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-24T12:45:50 IST" name="Default suite" finished-at="2024-05-24T12:46:03 IST" duration-ms="13065">
+  <suite started-at="2024-05-24T15:41:08 IST" name="Default suite" finished-at="2024-05-24T15:41:21 IST" duration-ms="12799">
     <groups>
     </groups>
-    <test started-at="2024-05-24T12:45:50 IST" name="Default test" finished-at="2024-05-24T12:46:03 IST" duration-ms="13065">
+    <test started-at="2024-05-24T15:41:08 IST" name="Default test" finished-at="2024-05-24T15:41:21 IST" duration-ms="12799">
       <class name="com.tutorialsninja.testcases.Login">
-        <test-method signature="validInvalidLoginTest(java.util.HashMap)[pri:0, instance:com.tutorialsninja.testcases.Login@4f80542f]" started-at="2024-05-24T12:45:51 IST" name="validInvalidLoginTest" data-provider="dataSupplier" finished-at="2024-05-24T12:45:56 IST" duration-ms="5951" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Runmode=Y, ExpectedResult=Success, Username=shashvat786@gmail.com, Browser=Firefox, Password=12345}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validInvalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.testcases.Login@4f80542f]" started-at="2024-05-24T12:45:56 IST" name="tearDown" finished-at="2024-05-24T12:45:57 IST" duration-ms="841" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="validInvalidLoginTest(java.util.HashMap)[pri:0, instance:com.tutorialsninja.testcases.Login@4f80542f]" started-at="2024-05-24T12:45:57 IST" name="validInvalidLoginTest" data-provider="dataSupplier" finished-at="2024-05-24T12:46:02 IST" duration-ms="4875" status="PASS">
+        <test-method signature="validInvalidLoginTest(java.util.HashMap)[pri:0, instance:com.tutorialsninja.testcases.Login@4f80542f]" started-at="2024-05-24T15:41:08 IST" name="validInvalidLoginTest" data-provider="dataSupplier" finished-at="2024-05-24T15:41:14 IST" duration-ms="5613" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +18,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validInvalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.testcases.Login@4f80542f]" started-at="2024-05-24T12:46:02 IST" name="tearDown" finished-at="2024-05-24T12:46:03 IST" duration-ms="901" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.testcases.Login@4f80542f]" started-at="2024-05-24T15:41:14 IST" name="tearDown" finished-at="2024-05-24T15:41:15 IST" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validInvalidLoginTest(java.util.HashMap)[pri:0, instance:com.tutorialsninja.testcases.Login@4f80542f]" started-at="2024-05-24T15:41:15 IST" name="validInvalidLoginTest" data-provider="dataSupplier" finished-at="2024-05-24T15:41:20 IST" duration-ms="4834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, ExpectedResult=Success, Username=shashvat786@gmail.com, Browser=Firefox, Password=12345}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validInvalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.testcases.Login@4f80542f]" started-at="2024-05-24T15:41:20 IST" name="tearDown" finished-at="2024-05-24T15:41:21 IST" duration-ms="934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
