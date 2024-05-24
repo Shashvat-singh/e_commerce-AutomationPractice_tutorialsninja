@@ -31,7 +31,7 @@ public class Login extends Base{
 	
 	@Test (dataProvider = "dataSupplier")
 	public void validInvalidLoginTest(HashMap<String, String>hMap) {
-		if (hMap.get("Runmode").equals("N")) {
+		if (!DataUtil.isRunnable(excelReader, "LoginTest", "Testcases")|| hMap.get("Runmode").equals("N")) {
 			throw new SkipException("Testcase is not runnable...!");
 		}
 		
@@ -69,7 +69,7 @@ public class Login extends Base{
 	public Object dataSupplier() {
 		Object data = null;
 		try {
-		MyXLSReader excelReader = new MyXLSReader("src\\test\\resources\\DemoExeData01.xlsx");
+		excelReader = new MyXLSReader("src\\test\\resources\\DemoExeData01.xlsx");
 		data = DataUtil.getTestData(excelReader, "LoginTest", "Data");
 		}catch (Throwable e) {
 			// TODO: handle exception
